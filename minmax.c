@@ -1,8 +1,9 @@
-#define MAX 1000000
-#define MIN -1000000
-
 #include <stdio.h>
 #include <stdlib.h>
+#include <limits.h>
+
+#define MAX INT_MAX
+#define MIN INT_MIN
 
 typedef struct tree{
 	int v;
